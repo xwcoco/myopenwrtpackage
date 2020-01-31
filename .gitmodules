@@ -1,0 +1,6 @@
+[submodule "diy/lienol"]
+	path = diy/lienol
+	url = https://github.com/Lienol/openwrt-package.git
+[submodule "diy/openclash"]
+	path = diy/openclash
+	url = https://github.com/vernesong/OpenClash.git
