@@ -7,3 +7,9 @@
 [submodule "diy/adguardhome"]
 	path = diy/adguardhome
 	url = https://github.com/rufengsuixing/luci-app-adguardhome.git
+[submodule "diy/luci-theme-argon"]
+	path = diy/luci-theme-argon
+	url = https://github.com/jerrykuku/luci-theme-argon.git
+[submodule "diy/argontheme"]
+	path = diy/argontheme
+	url = https://github.com/jerrykuku/luci-theme-argon.git
