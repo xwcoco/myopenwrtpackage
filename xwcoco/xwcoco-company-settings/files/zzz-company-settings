@@ -50,8 +50,14 @@ uci set network.wan.proto='none'
 uci set 'network.lan.ipv6=off'
 uci set 'network.wan.ipv6=off'
 uci set 'dhcp.lan.dhcpv6=disabled'
+
 /etc/init.d/odhcpd disable
 
+uci del dhcp.lan.start
+uci del dhcp.lan.limit
+uci del dhcp.lan.leasetime
+uci del dhcp.lan.ra
+uci del dhcp.lan.dhcpv6
 
 uci set dhcp.lan.ignore="1"
 uci commit dhcp
